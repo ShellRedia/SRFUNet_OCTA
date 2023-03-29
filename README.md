@@ -27,7 +27,7 @@ This project contains the following files and directories:
 
 - `train.py`: A Python script used for model training.
 - `results`: A directory containing the samples and metrics while training.
-- `weights`: Model weights saved while training
+- `weights`: A directory containing the model weights saved while training
 
 Before using this project, please ensure that you have completed the following steps:
 
@@ -44,6 +44,6 @@ train.py is the main script of this project, which implements the functionality 
 - batch_size: the number of samples processed in training.
 - opt_step_size: the size of the update made to the model's parameters during the training process.
 - seg_lr: learing rate.
-- data_dir = data path of public dataset 'OCTA-500'.
-- other_info = some comments appended to the save files.
+- data_dir: data path of public dataset 'OCTA-500'.
+- other_info: some comments appended to the save files.
 
