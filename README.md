@@ -39,11 +39,11 @@ Before using this project, please ensure that you have completed the following s
 
 train.py is the main script of this project, which implements the functionality of train stage. Before using this script, please ensure that you have installed Python and the necessary dependencies. The options are not given using argparse, but are listed at the beginning of train.py.
 
--- Epoches: the training epoches.
--- check_interval: save the weights and the test result while trained after xx epochs.
--- batch_size: the number of samples processed in training.
--- opt_step_size: the size of the update made to the model's parameters during the training process.
--- seg_lr: learing rate.
--- data_dir = data path of public dataset 'OCTA-500'.
--- other_info = some comments appended to the save files.
+- Epoches: the training epoches.
+- check_interval: save the weights and the test result while trained after xx epochs.
+- batch_size: the number of samples processed in training.
+- opt_step_size: the size of the update made to the model's parameters during the training process.
+- seg_lr: learing rate.
+- data_dir = data path of public dataset 'OCTA-500'.
+- other_info = some comments appended to the save files.
 
